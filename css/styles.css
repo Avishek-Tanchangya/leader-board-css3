@@ -3,6 +3,8 @@
 
 /* common styles or utilities*/
 body {
+  margin: 0;
+  margin-bottom: 10px;
   font-family: "Poppins", sans-serif;
   background-color: #f3f1ff;
 }
@@ -18,9 +20,41 @@ main {
   margin-top: 21px;
   border-radius: 5px;
 }
-
 .pink-color {
   color: #ff4a60;
+}
+.white-color {
+  color: white;
+}
+
+/* navigation */
+header {
+  margin: 0;
+  background-color: #562eff;
+  display: flex;
+  justify-content: center;
+  height: 94px;
+}
+.navbar {
+  width: 940px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+}
+
+.navbar-item02 {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-column-gap: 20px;
+}
+.navbar-item02 a {
+  text-decoration: none;
+  color: white;
+}
+.navbar-item02 img {
+  width: 50%;
 }
 
 /* top players style */
@@ -146,8 +180,8 @@ hr {
   .container {
     width: 100%;
   }
-  .section-title{
-      text-align: center;
+  .section-title {
+    text-align: center;
   }
   .players,
   .blogs,
